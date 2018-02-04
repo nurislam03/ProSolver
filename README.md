@@ -1,2 +1,2 @@
-# ProSolver-
+# ProSolver
 Practice Again xD  

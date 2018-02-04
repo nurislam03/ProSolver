@@ -1,0 +1,12 @@
+.HomeBodyCSS {
+    margin-top: 55px;
+    height: 490px;
+    width: 100%;
+
+    background-image: url(https://wp-user-uploads-prod.s3-ap-southeast-2.amazonaws.com/app/uploads/2015/05/Study-Abroad-web-banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+}

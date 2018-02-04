@@ -1,0 +1,17 @@
+.CustomHeaderCSS {
+    width: 100%;
+    padding: 1.6rem;
+    text-align: center;
+    color: white; //text color
+    transition: 200ms;
+    background: #ff6600;
+}
+
+.CustomFooterCSS {
+    width: 100%;
+    padding: 1.4rem;
+    text-align: center;
+    color: white; //text color
+    transition: 200ms;
+    background: #ff6600;
+}
