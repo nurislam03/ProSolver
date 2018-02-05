@@ -11,10 +11,8 @@ import {
 const CustomFooter = () => {
   return (
       <div className="CustomFooterCSS">
-          <div className="container">
-              <h6>Copyright ©2018 ProSolver</h6>
-              <p>All Rights Reserved <a href="www.nurislam03.blogspot.com"> ProSolver.Inc </a></p>
-          </div>
+          <h6>Copyright ©2018 ProSolver</h6>
+          <p>All Rights Reserved <a href="https://nurislam03.blogspot.com"> ProSolver.Inc </a></p>
       </div>
   );
 };
