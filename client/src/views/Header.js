@@ -41,7 +41,7 @@ class Header extends Component {
            <div className="CustomHeaderCSS">
                <div className="container">
                    <Navbar color="faded" light expand="md">
-                       <NavbarBrand href="/"> <i class="fas fa-home"></i> ProSolver</NavbarBrand>                       
+                       <NavbarBrand href="/"> <i class="fas fa-home"></i> ProSolver</NavbarBrand>
                        <NavbarToggler onClick={this.toggle} />
                        <Collapse isOpen={this.state.isOpen} navbar>
                            <Nav className="mr-auto" navbar>
@@ -67,8 +67,8 @@ class Header extends Component {
                                    </Button>{' '}
                                </ul>
                                <ul>
-                                   <Button color="warning">Sign In</Button>{' '}
-                                   <Button color="danger">Sign Up</Button>
+                                   <Button color="warning" href="/signin">Sign In</Button>{' '}
+                                   <Button color="danger"  href="/signup">Sign Up</Button>
                                </ul>
                            </Nav>
                        </Collapse>

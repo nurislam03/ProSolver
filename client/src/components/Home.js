@@ -44,14 +44,13 @@ class Home extends Component {
         return (
             <div className="HomeBodyCSS">
                 <div className="container">
-                    <br />
-                    <br />
-                    <br />
-                    <br />
+                    <br /> <br /> <br /> <br />
+
                     <h1>Welcome to ProSolver</h1>
                     <p>Never Stop Learning, Because Life Never Stops Teaching.</p>
-                    <br />
-                    <br />
+
+                    <br /> <br />
+
                     <Row>
                         <Col xs={{ size: 12, offset: 0 }} sm={{ size: 8, offset: 2 }}>
                             <InputGroup>
