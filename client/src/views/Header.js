@@ -41,7 +41,7 @@ class Header extends Component {
            <div className="CustomHeaderCSS">
                <div className="container">
                    <Navbar color="faded" light expand="md">
-                       <NavbarBrand href="/"> <i class="fas fa-home"></i> ProSolver</NavbarBrand>
+                       <NavbarBrand href="/"> <i class="fas fa-home"></i> ProSolver</NavbarBrand>                       
                        <NavbarToggler onClick={this.toggle} />
                        <Collapse isOpen={this.state.isOpen} navbar>
                            <Nav className="mr-auto" navbar>
