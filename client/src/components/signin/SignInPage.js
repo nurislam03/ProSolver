@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../../styles/UsersCSS.css';
+import '../../styles/SignIn.css';
 
 
-class SignIn extends Component {
+class SignInPage extends Component {
 
     render() {
         return (
@@ -16,4 +16,4 @@ class SignIn extends Component {
     }
 }
 
-export default SignIn;
+export default SignInPage;

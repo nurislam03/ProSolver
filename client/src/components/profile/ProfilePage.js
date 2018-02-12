@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../../styles/UsersCSS.css';
+import '../../styles/Profile.css';
 
 
-class Profile extends Component {
+class ProfilePage extends Component {
 
     render() {
         return (
@@ -16,4 +16,4 @@ class Profile extends Component {
     }
 }
 
-export default Profile;
+export default ProfilePage;

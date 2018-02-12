@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import '../../styles/UsersCSS.css';
+import '../../styles/SignUp.css';
 
-class SignUp extends Component {
+class SignUpPage extends Component {
     render() {
         return (
             <div className="SignUpCSS">
@@ -14,4 +14,4 @@ class SignUp extends Component {
     }
 };
 
-export default SignUp;
+export default SignUpPage;
