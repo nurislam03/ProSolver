@@ -4,10 +4,10 @@ import { Switch, Route } from 'react-router-dom';
 import './index.css';
 //import registerServiceWorker from './registerServiceWorker';
 
-import Home from './components/Home';
-import SignUp from './components/users/SignUp';
-import SignIn from './components/users/SignIn';
-import Profile from './components/users/Profile';
+import HomePage from './components/HomePage';
+import SignUpPage from './components/signup/SignUpPage';
+import SignInPage from './components/signin/SignInPage';
+import ProfilePage from './components/profile/ProfilePage';
 
 
 class Main extends Component {
@@ -16,12 +16,12 @@ class Main extends Component {
         return (
             <main>
                 <switch>
-                    <Route exact path='/' component={Home} />
-                    <Route exact path='/signup' component={SignUp} />
-                    <Route exact path='/signin' component={SignIn} />
+                    <Route exact path='/' component={HomePage} />
+                    <Route exact path='/signup' component={SignUpPage} />
+                    <Route exact path='/signin' component={SignInPage} />
 
                     {/*later,  */}
-                    <Route exact path='/profile' component={Profile} />
+                    <Route exact path='/profile' component={ProfilePage} />
                 </switch>
             </main>
         );
