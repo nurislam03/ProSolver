@@ -20,7 +20,7 @@ class Main extends Component {
                     <Route exact path='/signup' component={SignUp} />
                     <Route exact path='/signin' component={SignIn} />
 
-                    {/*later, singin state will require to got to profile */}
+                    {/*later,  */}
                     <Route exact path='/profile' component={Profile} />
                 </switch>
             </main>

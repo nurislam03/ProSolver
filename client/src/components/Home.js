@@ -45,7 +45,6 @@ class Home extends Component {
             <div className="HomeBodyCSS">
                 <div className="container">
                     <br /> <br /> <br /> <br />
-
                     <h1>Welcome to ProSolver</h1>
                     <p>Never Stop Learning, Because Life Never Stops Teaching.</p>
 

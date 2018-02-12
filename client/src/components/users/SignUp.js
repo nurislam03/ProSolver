@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './UsersCSS.css';
 
-
 class SignUp extends Component {
-
     render() {
         return (
             <div className="SignUpCSS">
@@ -14,6 +12,6 @@ class SignUp extends Component {
             </div>
         );
     }
-}
+};
 
 export default SignUp;

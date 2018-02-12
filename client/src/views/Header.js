@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import {LinkContainer} from 'react-router-bootstrap';
-import {Link} from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
 import './ViewsCSS.css';
 import {
     Collapse,
@@ -41,18 +40,18 @@ class Header extends Component {
            <div className="CustomHeaderCSS">
                <div className="container">
                    <Navbar color="faded" light expand="md">
-                       <NavbarBrand href="/"> <i class="fas fa-home"></i> ProSolver</NavbarBrand>
+                       <NavbarBrand style={{color: 'yellow'}} href="/"> <i class="fas fa-home"></i> ProSolver</NavbarBrand>
                        <NavbarToggler onClick={this.toggle} />
                        <Collapse isOpen={this.state.isOpen} navbar>
                            <Nav className="mr-auto" navbar>
                                <NavItem>
-                                   <NavLink href="#"> <i class="fas fa-trophy"></i> Leaderboard</NavLink>
+                                   <NavLink style={{color: 'yellow'}} href="#"> <i class="fas fa-trophy"></i> Leaderboard</NavLink>
                                </NavItem>
                                <NavItem>
-                                   <NavLink href="#"> <i class="far fa-handshake"></i> Contribution</NavLink>
+                                   <NavLink style={{color: 'yellow'}} href="#"> <i class="far fa-handshake"></i> Contribution</NavLink>
                                </NavItem>
                                <NavItem>
-                                   <NavLink href="#"> <i class="fas fa-suitcase"></i> Jobs</NavLink>
+                                   <NavLink style={{color: 'yellow'}} href="#"> <i class="fas fa-suitcase"></i> Jobs</NavLink>
                                </NavItem>
                            </Nav>
 
