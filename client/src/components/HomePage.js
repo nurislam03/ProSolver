@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ComponentsCSS.css';
+import '../styles/Homebody.css';
 import {
     InputGroup,
     InputGroupAddon,

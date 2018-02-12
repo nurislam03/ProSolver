@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {LinkContainer} from 'react-router-bootstrap';
 import { Container } from 'reactstrap';
 
-import './ViewsCSS.css';
+import '../styles/ViewsCSS.css';
 import {
   NavLink,
 } from 'reactstrap';

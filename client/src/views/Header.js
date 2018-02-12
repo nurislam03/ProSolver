@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
-import './ViewsCSS.css';
+import '../styles/ViewsCSS.css';
 import {
     Collapse,
     Navbar,
