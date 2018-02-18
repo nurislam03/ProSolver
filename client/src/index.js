@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
 import { Provider } from 'react-redux';
+import { ConnectedRouter } from 'react-router-redux';
 import store, { history } from './store';
+//import { Router, browserHistory } from 'react-router';
 
 import './index.css';
 import App from './App';
@@ -14,9 +16,9 @@ import 'bootstrap/dist/css/bootstrap.css'; // bootstrap CSS
 
 ReactDOM.render((
     <Provider store={store}>
-        <BrowserRouter>
+        <ConnectedRouter history={history}>
             <App />
-        </BrowserRouter>
+        </ConnectedRouter>
     </Provider>
   ),
   document.getElementById('root')
