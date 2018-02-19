@@ -15,14 +15,14 @@ class Main extends Component {
     render () {
         return (
             <main>
-                <switch>
+                <Switch>
                     <Route exact path='/' component={HomePage} />
                     <Route exact path='/signup' component={SignUpPage} />
                     <Route exact path='/signin' component={SignInPage} />
 
                     {/*later,  */}
                     <Route exact path='/profile' component={ProfilePage} />
-                </switch>
+                </Switch>
             </main>
         );
     }

@@ -5,7 +5,6 @@ import createHistory from 'history/createBrowserHistory';
 
 // import the root reducer
 import rootReducer from './reducers/index';
-
 export const history = createHistory();
 
 

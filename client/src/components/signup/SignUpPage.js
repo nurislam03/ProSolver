@@ -5,27 +5,27 @@ import '../../styles/SignUp.css';
 
 
 function Input (props)  {
-		return (
-			<div className="Input">
-				<input id={this.props.name} autocomplete="false" required type={this.props.type} placeholder={this.props.placeholder} />
-				<label for={this.props.name}></label>
-			</div>
-		);
+	return (
+		<div className="Input">
+			<input id={this.props.name} autocomplete="false" required type={this.props.type} placeholder={this.props.placeholder} />
+			<label for={this.props.name}></label>
+		</div>
+	);
 };
 
 
 
 function Modal (props) {
-		return (
-			<div className="Modal">
-				<form  className="ModalForm">
-					<Input id="name" type="text" placeholder="Nur-Islam" />
-					<Input id="username" type="email" placeholder="example@gmail.com" />
-					<Input id="password" type="password" placeholder="password" />
-					<button>Log in <i className="fa fa-fw fa-chevron-right"></i></button>
-				</form>
-			</div>
-		);
+	return (
+		<div className="Modal">
+			<form  className="ModalForm">
+				<Input id="name" type="text" placeholder="Nur-Islam" />
+				<Input id="username" type="email" placeholder="example@gmail.com" />
+				<Input id="password" type="password" placeholder="password" />
+				<button>Log in <i className="fa fa-fw fa-chevron-right"></i></button>
+			</form>
+		</div>
+	);
 };
 
 //onSubmit={this.props.onSubmit}
