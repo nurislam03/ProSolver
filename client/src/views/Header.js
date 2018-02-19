@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
+//import { LinkContainer } from 'react-router-bootstrap';
 import '../styles/ViewsCSS.css';
 import {
     Collapse,
@@ -9,14 +9,8 @@ import {
     Nav,
     NavItem,
     NavLink,
-    Dropdown,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
     Button,
     Badge,
-    Container
 } from 'reactstrap';
 
 
