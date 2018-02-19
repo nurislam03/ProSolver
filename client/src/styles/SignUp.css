@@ -1,6 +1,37 @@
 
+.SignUpBody {
+    height: 510px;
+    width: 100%;
+    background-image: url(http://localhost:3000/image/9.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+}
+
+/* for different device | desktop */
+@media only screen and (min-height: 800px) {
+    .SignUpBody {
+        height: 800px;
+        width: 100%;
+        background-image: url(http://localhost:3000/image/9.jpeg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        text-align: center;
+        color: black;
+    }
+}
 
 
 .SignUpCSS {
-	text-align: center;
+
+}
+
+
+.onlyForm {
+	background-color: orange;
+
+	background-position: top;
 }
