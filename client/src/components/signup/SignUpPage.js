@@ -16,7 +16,7 @@ class SignUpPage extends Component {
 
 		return(
 			<div className="SignUpBody">
-				<br /> <br />
+				<br />
 				<Row>
 					<Col xs={{ size: 10, offset: 1 }} sm={{ size: 10, offset: 1 }} md={{ size: 6, offset: 3 }} lg={{ size: 4, offset: 4 }}>
 						<Container className="onlyForm">
